@@ -1,0 +1,4 @@
+dvc[s3]
+torchvision
+sagemaker
+git+https://github.com/iterative/dvclive.git@no-git
