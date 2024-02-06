@@ -1,0 +1,19 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python sm_train.py
+    deps:
+    - path: mnist.py
+      hash: md5
+      md5: 97e49d0d80f64ae2263da5c2a0230c5f
+      size: 9297
+    - path: sm_train.py
+      hash: md5
+      md5: 20ca490747478aef2ba19697bdf27fc7
+      size: 1172
+    outs:
+    - path: data
+      hash: md5
+      md5: ab3353d41bd7a24a20a31f29b64e3b3c.dir
+      size: 66544770
+      nfiles: 8

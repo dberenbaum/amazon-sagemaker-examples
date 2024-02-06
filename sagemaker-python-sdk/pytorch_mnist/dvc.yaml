@@ -1,0 +1,8 @@
+stages:
+  train:
+    cmd: python sm_train.py
+    deps:
+      - sm_train.py
+      - mnist.py
+    outs:
+      - data
